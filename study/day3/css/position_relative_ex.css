@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+div{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+div:nth-child(odd){
+    background-color: slateblue;
+}
+
+div:nth-child(even){
+    background-color: violet;
+}
+div:nth-child(4){
+    background-color: red;
+}
+div:nth-child(odd):hover{
+    position: relative;
+    bottom:10px;
+    right:10px;
+    background-color: springgreen;
+}
+div:nth-child(even):hover{
+    position: relative;
+    top:10px;
+    left:10px;
+    background-color: springgreen;
+}
